@@ -1,0 +1,15 @@
+{
+  "name": "satur.io/duckdb-clib-no-lib",
+  "description": "DuckDB C library must be installed manually with this package",
+  "type": "library",
+  "license": "MIT",
+  "provide": {
+    "satur.io/duckdb-clib": "self.version"
+  },
+  "authors": [
+    {
+      "name": "Daniel Hernández-Marín",
+      "email": "dani@satur.io"
+    }
+  ]
+}
